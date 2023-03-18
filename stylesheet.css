@@ -6,8 +6,15 @@ body {
 .title{
  color: #353;
  font-size: 100px;
- 
-}
+  display: flex;
+  justify-content: center; /* 水平方向の中央揃え */
+  align-items: center; /* 垂直方向の中央揃え */
+  height: 100vh; /* ビューポートの高さいっぱいに表示 */
+  }
+  p {
+   text-align: center; /* 段落のテキストを中央揃え */
+    }
+ }
 
 .link{
 }
