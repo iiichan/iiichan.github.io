@@ -17,6 +17,7 @@ body {
  }
 
 .link{
+  font-size: 50px;
   display: flex;
   justify-content: center; /* 水平方向の中央揃え */
   align-items: center; /* 垂直方向の中央揃え */
