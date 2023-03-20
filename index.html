@@ -4,50 +4,14 @@
   <meta charset="UTF-8">
   <title>portfolio</title>
   <link rel="stylesheet" href="stylesheet.css">
-
 </head>
-  
-  
-  
 <body>
   <div class=title>
     <p>Welcome to my page!!!</p>
   </div>
-   
+ 
+  <div class=link>
+    <p><a href="https://github.com/iiichan">GitHub</a></p>
+  </div>  
 </body>
-</html>
-
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      /* タイピングアニメーションのスタイルを定義 */
-      #welcome-text {
-        display: inline-block;
-        text-align: center;
-        font-family: monospace;
-        font-size: 100px;
-        border-right: 0.15em solid orange;
-        animation: typing 2s steps(40) infinite alternate;
-      }
-      /* タイピングアニメーションのアニメーションを定義 */
-      @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
-      }
-    </style>
-  </head>
-  <body>
-    <h1><span id="welcome-text">Welcome to my page!!!</span></h1>
-    <script>
-      // JavaScriptを使用して、アニメーションのループを停止する
-      var text = document.getElementById("welcome-text");
-      var stop = text.innerHTML.length + 1;
-      setTimeout(function() {
-        text.style.borderRight = "none";
-        clearInterval(interval);
-      }, stop * 100);
-    </script>
-  </body>
 </html>
