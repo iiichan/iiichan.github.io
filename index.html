@@ -4,7 +4,23 @@
   <meta charset="UTF-8">
   <title>portfolio</title>
   <link rel="stylesheet" href="stylesheet.css">
+ 　<style>
+      /* タイピングアニメーションのスタイルを定義 */
+      #text {
+        border-right: 0.15em solid orange;
+        font-family: monospace;
+        animation: typing 2s steps(40) infinite alternate;
+      }
+      /* タイピングアニメーションのアニメーションを定義 */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+    </style>  
 </head>
+  
+  
+  
 <body>
   <div class=title>
     <p>Welcome to my page!!!</p>
@@ -13,6 +29,21 @@
   <div class=link>
     <p><a href="https://github.com/iiichan">GitHub</a></p>
   </div>  
+  
+   <div id="text">Welcome to my page!!!</div>
+    <script>
+      // JavaScriptを使用して、アニメーションのループを停止する
+      var text = document.getElementById("text");
+      var stop = text.innerHTML.length + 1;
+      setTimeout(function() {
+        text.style.borderRight = "none";
+        clearInterval(interval);
+      }, stop * 100);
+    </script>  
+  
+  
+  
+  
 </body>
 </html>
 
