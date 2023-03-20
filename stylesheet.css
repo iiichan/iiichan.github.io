@@ -3,7 +3,7 @@ body {
   background-color: #ABCDEF;
 }
 
-.typing-animation{
+.title{
  color: #353;
  font-size: 100px;
   display: flex;
@@ -14,31 +14,9 @@ body {
   p {
    text-align: center; /* 段落のテキストを中央揃え */
     }
-
-  width: 20ch;	/*文字の長さ*/
-	border-right: 5px solid #000;	/*点滅バー*/
-	overflow: hidden;	/*必須*/
-	white-space: nowrap;	/*必須*/
-	color:#00aec9;
-	font-size:4.0rem;
-	line-height:1.4;
-	font-weight:700;
-	animation: typing 3s steps(18), blink .4s step-end infinite alternate;	/*アニメーション関連*/
-    @keyframes typing {
-	    from {
-		  width: 0;
-	    }
-    }
-    @keyframes blink {
-     	50% {
-	  	border-color: transparent;		/*点滅風に見せる*/
-        	}
-    }
-
  }
 
 .link{
-  font-size: 50px;
   display: flex;
   justify-content: center; /* 水平方向の中央揃え */
   align-items: center; /* 垂直方向の中央揃え */
