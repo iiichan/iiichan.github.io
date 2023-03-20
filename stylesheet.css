@@ -1,27 +1,4 @@
 body {
-  font-family: "Avenir Next";
-  background-color: #ABCDEF;
+  background-color: #336666;
+  color: #fff;
 }
-
-.title{
- color: #353;
- font-size: 100px;
-  display: flex;
-  justify-content: center; /* 水平方向の中央揃え */
-  align-items: center; /* 垂直方向の中央揃え */
-  height: 50vh; /* ビューポートの高さいっぱいに表示 */
-  }
-  p {
-   text-align: center; /* 段落のテキストを中央揃え */
-    }
- }
-
-.link{
-  display: flex;
-  justify-content: center; /* 水平方向の中央揃え */
-  align-items: center; /* 垂直方向の中央揃え */
-  height: 50vh; /* ビューポートの高さいっぱいに表示 */
-     }
-  p {
-   text-align: center; /* 段落のテキストを中央揃え */
-    }
