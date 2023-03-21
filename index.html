@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>My Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       body {
         display: flex;
@@ -9,7 +10,7 @@
         align-items: center;
         height: 100vh;
         margin: 0;
-        background-color: #336666;
+        background-color: ;
         color: white;
         font-family: 'Josefin Sans', sans-serif;
       }
@@ -28,33 +29,44 @@
         height: 50px;
       }
 
-
       .welcome-message {
-      font-size: 100px;
+        font-size: 100px;
       }
+
       .welcome-message-sub-title {
-      font-size: 36px;
+        font-size: 36px;
       }
 
+      /* Media Queries for Responsive Design */
 
+      @media only screen and (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
+        .welcome-message {
+          font-size: 60px;
+        }
+        .welcome-message-sub-title {
+          font-size: 24px;
+        }
+      }
     </style>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="
+" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-
-      
-      
-     <h1 class="welcome-message" id="welcome-message"></h1>
-     <h2 class="welcome-message-sub-title">to the digital realm that belongs to me!!!</h2>
-      
-      
-      
-      <a href="https://github.com/iiichan" target="_blank" class="logo">
-        <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="GitHub">
+      <h1 class="welcome-message" id="welcome-message"></h1>
+      <h2 class="welcome-message-sub-title">to the digital realm that belongs to me!!!</h2>
+      <a href="
+" target="_blank" class="logo">
+        <img src="
+" alt="GitHub">
       </a>
-      <a href="https://www.instagram.com/___ihabo" target="_blank" class="logo">
-        <img src="https://www.instagram.com/static/images/ico/favicon.ico/36b3ee2d91ed.ico" alt="Instagram">
+      <a href="
+" target="_blank" class="logo">
+        <img src="
+" alt="Instagram">
       </a>
     </div>
 
@@ -73,7 +85,5 @@
 
       typeMessage(0);
     </script>
-    
-
   </body>
 </html>
